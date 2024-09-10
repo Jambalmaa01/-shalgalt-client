@@ -1,0 +1,89 @@
+/* Бүх ерөнхий тохиргоо */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+/* Гол агуулгын тохиргоо */
+#combined-info {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Анги болон утасны мэдээллийн хэсгүүд */
+.class-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.class-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.phone-list {
+    margin-top: 10px;
+}
+
+.phone-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.phone-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Responsive дизайныг дэмжих */
+@media (max-width: 768px) {
+    #combined-info {
+        width: 95%;
+        
+    }
+
+    .class-item {
+        padding: 10px;
+    }
+
+    .phone-list li {
+        font-size: 0.9em;
+    }
+}
+#profile{
+    display: flex;
+    flex-direction: row;
+    margin-right: 160px;
+}
+#profile1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1160px;
+}
+#searchinput{
+    margin-left: 150px;
+    width: 390px;
+    height: 30px;
+}

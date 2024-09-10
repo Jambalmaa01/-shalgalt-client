@@ -1,0 +1,163 @@
+#div1 {
+    width: 100%;
+    height: 690px;
+    background-image: url('https://www.openphone.com/blog/wp-content/uploads/2024/02/10DLC-registration-768x402.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#div0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 58px;
+    background-color: rgb(221, 216, 216);
+}
+#div01, a {
+      text-decoration: none;
+      color: blue;
+      padding: 25px                                                         ;
+}
+#new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(194, 192, 192);
+    width: 300px;
+    height: 350px;
+    border-radius: 4px;
+}
+#newtreh {
+    width: 760px;
+    height: 500px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 350px;
+    border-radius: 15px;
+
+}
+#img, img{
+   width: 300px;
+   height: 350px;
+}
+#input1{
+    width: 250px;
+    height: 44px;
+    border-radius: 5px;
+}
+#input2{
+    margin-top: 25px;
+    width: 250px;
+    height: 44px;
+    border-radius: 3px;
+}
+#input3{
+    margin-top: 25px;
+    width: 250px;
+    height: 44px;
+    border-radius: 3px;
+}
+
+#button{
+    margin-top: 20px;
+    width: 250px;
+    height: 49px;
+    border-radius: 3px;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+#log {
+    color: blue;
+    margin-top: 7px;
+}
+#log1 {
+    color: blue;
+    margin-top: 30px;
+}
+#home{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(252, 248, 248);
+    position: absolute;
+    margin-top: -748px;
+}
+
+#class{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+}
+#newclass{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgba(255, 255, 255, 0.906);
+   width: 50%;
+   height: 80px;
+   margin-top: 15px;
+   margin-left: 30px;
+   border: 1px solid black;
+   border-radius: 3px;
+   padding: 0px 20px;
+   
+}
+#newphone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 253, 248, 0.906);
+    width:50%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 3px;
+   border: 1px solid black;
+    padding: 0px 20px;
+    
+ }
+#class1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 5px;
+    margin-top: 10px;
+}
+#class2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#phone{
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: row;
+   margin-left: 10px;
+   margin-top: 10px;
+
+}
+#admin{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(250, 250, 250);
+    position: absolute;
+    margin-top: -748px;
+}
+
+#phone1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 10px;
+ 
+ }
